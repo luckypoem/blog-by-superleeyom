@@ -1,5 +1,9 @@
 name: Generate GitBlog README
 
+env:
+  GITHUB_NAME: luckypoem
+  GITHUB_EMAIL: luckypoem@gmail.com
+
 on:
   workflow_dispatch:
   issues:
